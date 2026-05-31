@@ -5,48 +5,34 @@ on:
     branches:
       - main
     paths:
-      - 'regional management/summaries/**'
-
-permissions:
-  contents: write
+      - 'summaries/**'
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout repository
+      - name: Checkout
         uses: actions/checkout@v4
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: '20'
-          cache: 'npm'
-          cache-dependency-path: 'regional management/package-lock.json'
 
       - name: Install dependencies
-        run: |
-          cd "regional management"
-          npm ci
+        run: npm install
 
-      - name: Run build script
-        run: |
-          cd "regional management"
-          npm run build
+      - name: Build weekly notes
+        run: node build.js
 
-      - name: Commit and push changes
+      - name: Commit and push if changed
         run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          
-          # 変更のあったHTMLファイルをステージング
-          git add "regional management/weekly/" "regional management/index.html"
-          
-          # 差分がある場合のみコミット＆プッシュを実行
-          if git diff --cached --quiet; then
-            echo "No changes to commit."
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git config user.name "github-actions[bot]"
+          git add -A
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
           else
-            git commit -m "chore: auto-build weekly notes [skip ci]"
-            git push origin main
+            git commit -m "chore: auto-build weekly notes"
+            git push
           fi
