@@ -1,44 +1,126 @@
 <!DOCTYPE html>
 <html lang="ja">
-
 <head>
-    <meta charset="UTF-8">
-    <title>テストサイト</title>
-    <meta name="keywords" content="ページのキーワードA,B,C">
-    <meta name="description" content="ページの説明">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>地域経営ラボ — 地域経営の知を編む</title>
+  <meta name="description" content="地域経営ラボは、人口減少時代の地域経営について基礎理論から実践事例までを体系的にまとめた知的編集サイトです。">
+  <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-    <div id="outer">
-        <div id="inner">
-            <header>
-                <img src="images/header.jpg" alt="ヘッダー画像" class="header-image">
 
-            </header>
-            <div id="container">
-                <h2>地域情報</h2>
-                <div id="main">
-                    <p>文章あれこれ</p>
-                    <h3>記事ページ見出し・中</h3>
-                    <p>文章あれこれ</p>
-                    <h4>記事ページ見出し・小</h4>
-                    <p>文章あれこれ</p>
-                </div>
-                </main>
-                <aside>
-                    <div class="side-title">サイドバータイトル</div>
-                    <div class="side">
-                        <ul>
-                            <li><a href="article_1.html ">記事ページへのリンク①</a></li>
-                            <li><a href="article_2.html ">記事ページへのリンク②</a></li>
-                        </ul>
-                    </div>
-            </div>
-
-            </aside>
-            <footer>© 2015 あなたのホームページ</footer>
-        </div>
+  <!-- ========== HEADER ========== -->
+  <header class="site-header" id="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="site-logo" id="logo">
+        <span class="site-logo__icon">📘</span>
+        <span class="site-logo__text">地域経営ラボ</span>
+        <span class="site-logo__sub">Regional Management Lab</span>
+      </a>
+      <nav class="site-nav" aria-label="メインナビゲーション" id="main-nav">
+        <a href="index.html" aria-current="page">ホーム</a>
+        <a href="basic/index.html">地域経営の基本</a>
+        <a href="weekly/index.html">週刊ノート</a>
+        <a href="about.html">このサイトについて</a>
+      </nav>
     </div>
+  </header>
+
+  <main>
+    <!-- ========== HERO ========== -->
+    <section class="hero" id="hero">
+      <div class="container hero__content">
+        <span class="hero__label">Knowledge Platform</span>
+        <h1 class="hero__title">地域を「経営する」という視点で<br>未来をつくる。</h1>
+        <p class="hero__description">
+          人口減少、財政制約、担い手不足——。
+          いま求められるのは、地域全体を「経営」する発想です。<br>
+          地域経営ラボでは、基礎理論から先端事例まで、<br>地域経営にまつわる知を体系的に編纂しています。
+        </p>
+        <div class="cta-block">
+          <a href="basic/index.html" class="cta-link" id="hero-cta-basic">
+            基本記事を読む <span class="cta-link__arrow">→</span>
+          </a>
+          <a href="weekly/index.html" class="cta-link" id="hero-cta-weekly">
+            週刊ノートを読む <span class="cta-link__arrow">→</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== 地域経営の基本 — 導線 ========== -->
+    <section class="section" id="section-basics">
+      <div class="container">
+        <div class="section__header">
+          <span class="section__label">FUNDAMENTALS</span>
+          <h2 class="section__title">地域経営の基本</h2>
+          <p class="section__subtitle">地域経営の根幹を理解するための10本の基礎記事</p>
+        </div>
+        <div class="basics-panel" id="basics-panel">
+          <p class="basics-panel__desc">
+            地域経営の概念整理から具体的なツール・手法まで、順に読むことで体系的に学べる全10回の基礎シリーズです。
+          </p>
+          <ol class="basics-panel__list">
+            <li><a href="basic/01.html">地域経営とは何か</a></li>
+            <li><a href="basic/02.html">自治体経営と地域経営はどう違うのか</a></li>
+            <li><a href="basic/03.html">人口減少時代に地域を「経営する」とはどういうことか</a></li>
+            <li><a href="basic/04.html">地域資源とは何か</a></li>
+            <li><a href="basic/05.html">住民参加はなぜ難しいのか</a></li>
+            <li><a href="basic/06.html">公共空間は誰のものか</a></li>
+            <li><a href="basic/07.html">かわまちづくりを地域経営として考える</a></li>
+            <li><a href="basic/08.html">RESASで地域を見る</a></li>
+            <li><a href="basic/09.html">地域幸福度指標で地域を見る</a></li>
+            <li><a href="basic/10.html">生成AIは地域経営にどう役立つか</a></li>
+          </ol>
+          <div class="cta-block">
+            <a href="basic/index.html" class="cta-link" id="basics-cta">
+              記事一覧を見る <span class="cta-link__arrow">→</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== 最新記事 ========== -->
+    <section class="section section--alt" id="section-latest">
+      <div class="container">
+        <div class="section__header">
+          <span class="section__label">WEEKLY NOTES</span>
+          <h2 class="section__title">週刊・地域経営ノート</h2>
+          <p class="section__subtitle">地域経営にまつわる最新トピックを毎週お届けします</p>
+        </div>
+        <ul class="weekly-list" id="latest-articles">
+        <!-- WEEKLY_START -->
+          <li class="weekly-list__item">
+            <div class="weekly-list__info">
+              <h3 class="weekly-list__title"><a href="weekly/2026-05-31-chiiki-mirai-cluster.html">「地域未来戦略」産業クラスター計画の素案出揃い——地方経営の枠組み転換を読む</a></h3>
+              <p class="weekly-list__excerpt">2025年12月に高市政権が創設した「地域未来戦略本部」（本部長：内閣総理大臣）が主導する政策パッケージの核心部分として、3種類の産業集積計画の素案が出揃った。（ア）広域ブロック単位の「戦略産業クラスター計画」（AIや半導体等17の戦略分野…</p>
+            </div>
+            <time class="weekly-list__date" datetime="2026-05-31">2026.05.31</time>
+          </li>
+        <!-- WEEKLY_END -->
+        </ul>
+        <div class="cta-block">
+          <a href="weekly/index.html" class="cta-link" id="weekly-cta">
+            すべての週刊記事を見る <span class="cta-link__arrow">→</span>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="site-footer" id="site-footer">
+    <div class="container footer-inner">
+      <nav class="footer-nav" aria-label="フッターナビゲーション">
+        <a href="index.html">ホーム</a>
+        <a href="basic/index.html">地域経営の基本</a>
+        <a href="weekly/index.html">週刊ノート</a>
+        <a href="about.html">このサイトについて</a>
+      </nav>
+      <p class="footer-copy">&copy; 2026 地域経営ラボ</p>
+    </div>
+  </footer>
+
 </body>
+</html>
