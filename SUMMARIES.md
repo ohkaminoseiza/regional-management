@@ -2,6 +2,7 @@
 
 - 2026-06-07 全国8,193組織のRMO——持続可能性の壁と「特定地域づくり事業」改正一年の現在地 — summaries/2026/2026-06-07-rmo-8193-tanite-tokutei-chiiki.md
 - 2026-06-07 コンパクトシティ計画と産業クラスター政策の制度的接合——2026年都市再生特別措置法等改正の地域経営論的読解 — summaries/2026/2026-06-07-toshi-saisei-compact-cluster.md
+- 2026-06-14 GX戦略地域制度——脱炭素インフラの「地理的偏在」が再編する産業立地と地域経営の論理 — summaries/2026/2026-06-14-gx-strategy-area-38-regions.md
 - 2026-06-07 地籍調査「３ヶ年加速化施策パッケージ」——土地台帳DXが照射する地域経営の構造的前提 — summaries/2026/2026-06-07-cadastral-3yr-acceleration.md
 - 2026-05-31 「地域未来戦略」産業クラスター計画の素案出揃い——地方経営の枠組み転換を読む — summaries/2026/2026-05-31-chiiki-mirai-cluster.md
 - 2026-05-31 地域経営データ基盤の転換——RAIDA-AI公開と「地域未来戦略本部」への運営移管 — summaries/2026/2026-05-31-resas-raida-regional-data.md
