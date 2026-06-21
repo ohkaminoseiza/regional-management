@@ -1,5 +1,6 @@
 # 地域経営ウォッチ — サマリー一覧
 
+- 2026-06-21 「PLATEAUビジョン2026」——3D都市モデル政策の転換点と地域データ統治の課題 — summaries/2026/2026-06-21-plateau-vision-2026-digital-twin-jisso.md
 - 2026-06-07 全国8,193組織のRMO——持続可能性の壁と「特定地域づくり事業」改正一年の現在地 — summaries/2026/2026-06-07-rmo-8193-tanite-tokutei-chiiki.md
 - 2026-06-07 コンパクトシティ計画と産業クラスター政策の制度的接合——2026年都市再生特別措置法等改正の地域経営論的読解 — summaries/2026/2026-06-07-toshi-saisei-compact-cluster.md
 - 2026-06-07 地籍調査「３ヶ年加速化施策パッケージ」——土地台帳DXが照射する地域経営の構造的前提 — summaries/2026/2026-06-07-cadastral-3yr-acceleration.md
