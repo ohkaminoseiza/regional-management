@@ -6,6 +6,7 @@ on:
       - main
     paths:
       - 'summaries/**'
+      - 'build.js'
   workflow_run:
     workflows:
       - "Auto-merge Claude branch to main"
