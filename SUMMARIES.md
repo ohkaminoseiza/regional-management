@@ -1,5 +1,6 @@
 # 地域経営ウォッチ — サマリー一覧
 
+- 2026-07-19 令和8年度「空き家対策モデル事業」36件採択——AI判定・住宅地再編・多目的活用が照射する空き家の地域経営論的転換 — summaries/2026/2026-07-19-akiya-model-36-chiiki-management.md
 - 2026-07-12 RESAS新機能「クレジットカード消費分析」と「地域経済総合分析」——地域経営データ基盤のリアルタイム化が問い直す測定論と活用格差 — summaries/2026/2026-07-12-resas-creditcard-chiiki-keizai-analysis.md
 - 2026-07-05 「地域未来戦略（原案）」——3類型クラスター政策が問い直す地域経営の主体と論理 — summaries/2026/2026-07-05-chiiki-mirai-senryaku-cluster.md
 - 2026-06-07 全国8,193組織のRMO——持続可能性の壁と「特定地域づくり事業」改正一年の現在地 — summaries/2026/2026-06-07-rmo-8193-tanite-tokutei-chiiki.md
