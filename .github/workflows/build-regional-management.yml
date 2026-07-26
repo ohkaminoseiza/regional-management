@@ -1,4 +1,4 @@
-name: Build Regional Management Weekly Notes
+name: Build Regional Management Site
 
 on:
   push:
@@ -6,6 +6,7 @@ on:
       - main
     paths:
       - 'summaries/**'
+      - 'cases/**'
       - 'build.js'
   workflow_run:
     workflows:
