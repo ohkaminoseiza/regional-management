@@ -132,7 +132,7 @@ function parseArticles() {
       sources: data.sources || [],
       contentMd: cleanContent,
       contentHtml: marked(cleanContent),
-      excerpt: extractExcerpt(cleanContent),
+      excerpt: data.excerpt || extractExcerpt(cleanContent),
       filename: toWeeklyFilename(mdPath),
       sourcePath: mdPath,
     });
@@ -179,7 +179,7 @@ function parseCases() {
       block: data.block || '',
       sources: data.sources || [],
       contentHtml: marked(cleanContent),
-      excerpt: extractExcerpt(cleanContent),
+      excerpt: data.excerpt || extractExcerpt(cleanContent),
       filename: toWeeklyFilename(mdPath),
       sourcePath: mdPath,
     });
