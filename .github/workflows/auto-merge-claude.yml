@@ -7,6 +7,8 @@ on:
     paths:
       - 'summaries/**'
       - 'SUMMARIES.md'
+      - 'cases/**'
+      - 'CASES.md'
 
 permissions:
   contents: write
