@@ -1,5 +1,6 @@
 # 地域経営ウォッチ — サマリー一覧
 
+- 2026-08-02 「地域生活圏の社会的インパクト可視化」検討会（第1回）——民間地域経営主体の成果を測る評価論の新展開 — summaries/2026/2026-08-02-chiiki-seikatsken-social-impact.md
 - 2026-07-26 令和8年「地域未来戦略」閣議決定——地方創生フレームワークの転換と産業クラスター型地域政策の確立 — summaries/2026/2026-07-26-chiikimirai-kakugi-r8-cluster-policy.md
 - 2026-07-19 令和8年度「空き家対策モデル事業」36件採択——AI判定・住宅地再編・多目的活用が照射する空き家の地域経営論的転換 — summaries/2026/2026-07-19-akiya-model-36-chiiki-management.md
 - 2026-07-12 RESAS新機能「クレジットカード消費分析」と「地域経済総合分析」——地域経営データ基盤のリアルタイム化が問い直す測定論と活用格差 — summaries/2026/2026-07-12-resas-creditcard-chiiki-keizai-analysis.md
