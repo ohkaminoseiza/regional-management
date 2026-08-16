@@ -1,5 +1,6 @@
 # 地域経営ウォッチ — サマリー一覧
 
+- 2026-08-16 「景観エリアリノベーション事業」モデル都市の連続選定——景観整備推進法人による民間介在型まちづくりの地域経営的含意 — summaries/2026/2026-08-16-keikan-area-renovation-model-toshi.md
 - 2026-08-09 「土地の取得・利用等の在り方に関する有識者会議」提言——縮退期における土地利用モニタリングと国土法改革の地域経営的含意 — summaries/2026/2026-08-09-tochi-riyo-yushikisha-kaigi-teigen.md
 - 2026-08-02 「地域生活圏の社会的インパクト可視化」検討会（第1回）——民間地域経営主体の成果を測る評価論の新展開 — summaries/2026/2026-08-02-chiiki-seikatsken-social-impact.md
 - 2026-07-26 令和8年「地域未来戦略」閣議決定——地方創生フレームワークの転換と産業クラスター型地域政策の確立 — summaries/2026/2026-07-26-chiikimirai-kakugi-r8-cluster-policy.md
